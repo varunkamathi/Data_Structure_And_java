@@ -88,7 +88,7 @@ public class BinaryTreeB {
                 }
             }
         }
-        
+
     }
     public static void main(String[] args) {
         int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
@@ -99,6 +99,7 @@ public class BinaryTreeB {
         //tree.inOrder(root);
         //tree.postOrder(root);
         tree.levelOrder(root);
+        
 
     }
 }
