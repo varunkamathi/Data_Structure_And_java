@@ -21,6 +21,15 @@ public class Binary_tree_count {
                     return Math.max(lh, rh) + 1;
 
     }
+    public static int count(Node root){
+        if(root == null){
+            return 0;
+        }
+        
+        int leftCount = count(root.left);
+        int rightCount = count(root.right);
+        return leftCount + rightCount + 1;
+    }
 
     public static void main(String[] args) {
         Node root = new Node(1);
@@ -30,6 +39,7 @@ public class Binary_tree_count {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
 
-        System.out.println(height(root));
+       // System.out.println(height(root));
+       System.out.println(count(root));
     }
 }
