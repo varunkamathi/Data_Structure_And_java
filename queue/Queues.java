@@ -1,3 +1,4 @@
+package queue;
 public class Queues {
     static class Queue{
         static int arr[];

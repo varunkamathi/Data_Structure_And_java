@@ -1,3 +1,4 @@
+package stack;
 import java.util.*;
 public class StackUsingArrylist {
     static void push(ArrayList<Integer> list,int no){   

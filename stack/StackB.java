@@ -1,3 +1,4 @@
+package stack;
 import java.util.*;
 public class StackB {
     public static void PushAtButtom(Stack<Integer> s , int data){
