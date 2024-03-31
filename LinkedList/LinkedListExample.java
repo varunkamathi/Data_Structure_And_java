@@ -1,4 +1,4 @@
-package Linked_List;
+package LinkedList;
 import java.util.*;
 
 //import stack.Node;
