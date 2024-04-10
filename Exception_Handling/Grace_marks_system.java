@@ -14,7 +14,8 @@ public class Grace_marks_system {
                 int Gmarks = 20 - marks ;
                 marks = marks + Gmarks;
                 System.out.println("pass exam with grace makrs :- " + marks);
-
+            
+                // custom Exception 
             GraceMarks.GraceMarkss(marks);
 
       /*   try {
