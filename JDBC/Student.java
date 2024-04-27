@@ -17,7 +17,7 @@ public class Student {
             String userName = "root";
             String password = "varun1234";
 */
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root","varun1234");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/data_structure","root","varun1234");
                     //statment creat
             statement = connection.createStatement();
                     //excute - query
