@@ -16,16 +16,19 @@ public class connect {
             String password = "varun1234";
 
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bankSystem","root","varun1234");
+                    //statment creat
             statement = connection.createStatement();
-            System.out.println("connect sucefull");
+                    //excute - query
+            String query = "create database data_structure";
+            statement.execute(query);
+            System.out.println("DataBase created successfull " );
 
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
             System.out.println("not");
         }
-        //statment creat
-        //excute - query
+        
         //coon cloan
     }
 }
