@@ -1,6 +1,7 @@
 package Array;
 
-public class Array {public static void findMinMax(int[] arr) {
+public class Array {
+    public static void findMinMax(int[] arr) {
     int min = arr[0];
     int max = arr[0];
     
