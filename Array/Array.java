@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class Array {
     public static void findMinMax(int[] arr) {
